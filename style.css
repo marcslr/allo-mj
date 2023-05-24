@@ -1,0 +1,117 @@
+@font-face {
+    font-family: Play-Bolt;
+    src: url(/font/Play-Bold.ttf);
+  }
+  @font-face {
+    font-family: Play-Regular;
+    src: url(/font/Play-Regular.ttf);
+  }
+  @font-face {
+    font-family: Rosaline-Signature;
+    src: url(/font/Rosaline-Signature.ttf);
+  }
+  @font-face {
+    font-family: Pastamore;
+    src: url(/font/Pastamore.ttf);
+  }
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  nav {
+    margin-top: 10px;
+    text-align: center;
+    font-family: play-regular;
+    font-size: 20px;
+  }
+  
+  .banner {
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    justify-content: space-between;
+    font-family: play-bold;
+    
+  }
+  
+  header {
+    
+    padding: 20px;
+  }
+  
+  h2{
+    text-align: center;
+    padding: 50px;
+    font-family: play-bold;
+    font-size: 2rem;
+  }
+    body { 
+        background: rgb(255,0,240);
+background: linear-gradient(0deg, rgba(255,0,240,1) 0%, rgba(255,128,211,1) 36%, rgba(254,79,232,1) 58%, rgba(255,128,211,1) 100%);
+    }
+  .reservation-form {
+      background-color: #fff;
+      padding: 50px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      margin: 200px;
+      text-align: center;
+      margin-top: 40px;
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+      
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+      font-family: Play-Regular;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="date"],
+    input[type="time"],
+    input[type="number"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      background-color: #f5f5f5;
+      box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      font-family: Play-Regular;
+    }
+    
+    input[type="submit"] {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #555555;
+      color: #fff;
+      font-size: 16px;
+      cursor: pointer;
+      font-family: Play-Regular;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #3e8e41;
+      
+    }
+    
+    footer{
+      margin-top: 20px;
+      text-align: center;
+      justify-content: space-between;
+      color: white;
+      padding: 25px;
+      font-family: play-bolt;
+      
+    }
